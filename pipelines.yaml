@@ -21,4 +21,15 @@ spec:
   lifecycle: experimental
   owner: guests
   system: examples
-  
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: gh-deploy-db-test
+  annotations:
+    aws.amazon.com/aws-codepipeline: arn:aws:codepipeline:us-east-1:137207230541:gh-deploy-db-codepipeline
+spec:
+  type: service
+  lifecycle: experimental
+  owner: guests
+  system: examples
