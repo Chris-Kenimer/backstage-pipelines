@@ -9,3 +9,16 @@ spec:
   lifecycle: experimental
   owner: guests
   system: examples
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: dbcodepipeline-test
+  annotations:
+    aws.amazon.com/aws-codepipeline: arn:aws:codepipeline:us-east-1:137207230541:d2it-infra-db-codepipeline-Infra-ODS-SQL-Demo-sandbox
+spec:
+  type: service
+  lifecycle: experimental
+  owner: guests
+  system: examples
+  
