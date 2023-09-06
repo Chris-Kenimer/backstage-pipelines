@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: example-website
+  name: codepipeline-test
   annotations:
     aws.amazon.com/aws-codepipeline: arn:aws:codepipeline:us-east-1:137207230541:sandbox-InfraAwsCodepipelineNotificationsPipeline
 spec:
